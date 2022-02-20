@@ -177,7 +177,7 @@ img {
 
 /* no me funciona para cambiar el tamaño del icono */
 .insta {
-  width: 6;
-  height: 6;
+  width: 60px;
+  height: 60px;
   font-size: 10px;
 }
