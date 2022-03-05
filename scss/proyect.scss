@@ -1,0 +1,107 @@
+@import "variables";
+@import "general";
+@import "index";
+
+/* ol {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+} */
+
+.titulo {
+  text-align: center;
+  vertical-align: middle;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  max-width: 992px;
+  color: black;
+  background-image: url("https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/media/2020/09/29/coches_electricos_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px;
+  height: 100vh;
+}
+
+.TituloContacto {
+  color: $red;
+}
+
+table {
+  border: 2px solid royalblue;
+}
+
+.fichaTecnica {
+  border: solid 3px $red);
+}
+
+img {
+  padding: 5px;
+  padding-bottom: 0px;
+  margin: 10px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  max-width: 90%;
+  height: auto;
+}
+
+.descripcion {
+  border: solid 3px black;
+}
+
+.modelo {
+  padding: 30px;
+}
+
+.desaparecer {
+  animation-name: desaparecer;
+  animation-iteration-count: initial;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes desaparecer {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.formularioRegistrate {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  width: 500px;
+  border: solid 5px;
+  border-color: rgb(81, 255, 0);
+  font-size: 15px;
+}
+
+.field {
+  border: solid 1px;
+  padding: 10px;
+  width: 300px;
+}
+
+.boton {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  background-color: rgb(81, 255, 0);
+  color: black;
+}
+
+.insta {
+  width: 60px;
+  height: 60px;
+  font-size: 10px;
+}

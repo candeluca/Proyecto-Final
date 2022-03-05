@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5 rem;
+  line-height: 20px;
+  width: 90%;
+  max-width: 1000px; /* para que tenga un tope maximo de crecimiento. sino va a siempre tomar, en este caso, el 90% de la pantalla. y poniendole un tope de px, cuando la pantalla sea muy grande, solo va a crecer hasta un punto */
+  margin: 0 auto;
+}
